@@ -7,9 +7,6 @@ $relative-font-sizing: false;
 $legacy-support-for-ie: false;
 $grid-background-baseline-height: $base-line-height;
 
-// class variable
-$page-container: ".page";
-
 // import all things
 @import "compass";
 @import "susy";

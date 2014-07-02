@@ -1,152 +1,95 @@
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-/** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
-html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+/*
+Syntax error: File to import not found or unreadable: layout-debug.
+              Load paths:
+                /Users/shengli/Dropbox/Projects/base-project/sass
+                /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+                /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+                /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+                /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+                /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+                /Users/shengli/.compass/extensions/bootstrap-sass-3.1.1/vendor/assets/stylesheets
+                /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+                /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+                Compass::SpriteImporter
+                /Users/shengli/.compass/extensions/bootstrap-sass-3.1.1/vendor/assets/stylesheets
+                /Users/shengli/.compass/extensions/bootstrap-sass-3.1.1/vendor/assets/stylesheets
+        on line 2 of /Users/shengli/Dropbox/Projects/base-project/sass/_layout.scss
+        from line 19 of /Users/shengli/Dropbox/Projects/base-project/sass/all.scss
 
-/** Remove default margin. */
-body { margin: 0; }
+1: /Users/shengli/Dropbox/Projects/base-project/sass/all.scss
 
-/* HTML5 display definitions ========================================================================== */
-/** Correct `block` display not defined for any HTML5 element in IE 8/9. Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox. Correct `block` display not defined for `main` in IE 11. */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
-
-/** 1. Correct `inline-block` display not defined in IE 8/9. 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera. */
-audio, canvas, progress, video { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
-
-/** Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices. */
-audio:not([controls]) { display: none; height: 0; }
-
-/** Address `[hidden]` styling not present in IE 8/9/10. Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22. */
-[hidden], template { display: none; }
-
-/* Links ========================================================================== */
-/** Remove the gray background color from active links in IE 10. */
-a { background: transparent; }
-
-/** Improve readability when focused and also mouse hovered in all browsers. */
-a:active, a:hover { outline: 0; }
-
-/* Text-level semantics ========================================================================== */
-/** Address styling not present in IE 8/9/10/11, Safari, and Chrome. */
-abbr[title] { border-bottom: 1px dotted; }
-
-/** Address style set to `bolder` in Firefox 4+, Safari, and Chrome. */
-b, strong { font-weight: bold; }
-
-/** Address styling not present in Safari and Chrome. */
-dfn { font-style: italic; }
-
-/** Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari, and Chrome. */
-h1 { font-size: 2em; margin: 0.67em 0; }
-
-/** Address styling not present in IE 8/9. */
-mark { background: #ff0; color: #000; }
-
-/** Address inconsistent and variable font size in all browsers. */
-small { font-size: 80%; }
-
-/** Prevent `sub` and `sup` affecting `line-height` in all browsers. */
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-
-sup { top: -0.5em; }
-
-sub { bottom: -0.25em; }
-
-/* Embedded content ========================================================================== */
-/** Remove border when inside `a` element in IE 8/9/10. */
-img { border: 0; }
-
-/** Correct overflow not hidden in IE 9/10/11. */
-svg:not(:root) { overflow: hidden; }
-
-/* Grouping content ========================================================================== */
-/** Address margin not present in IE 8/9 and Safari. */
-figure { margin: 1em 40px; }
-
-/** Address differences between Firefox and other browsers. */
-hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
-
-/** Contain overflow in all browsers. */
-pre { overflow: auto; }
-
-/** Address odd `em`-unit font size rendering in all browsers. */
-code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
-
-/* Forms ========================================================================== */
-/** Known limitation: by default, Chrome and Safari on OS X allow very limited styling of `select`, unless a `border` property is set. */
-/** 1. Correct color not being inherited. Known issue: affects color of disabled elements. 2. Correct font properties not being inherited. 3. Address margins set differently in Firefox 4+, Safari, and Chrome. */
-button, input, optgroup, select, textarea { color: inherit; /* 1 */ font: inherit; /* 2 */ margin: 0; /* 3 */ }
-
-/** Address `overflow` set to `hidden` in IE 8/9/10/11. */
-button { overflow: visible; }
-
-/** Address inconsistent `text-transform` inheritance for `button` and `select`. All other form control elements do not inherit `text-transform` values. Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera. Correct `select` style inheritance in Firefox. */
-button, select { text-transform: none; }
-
-/** 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio` and `video` controls. 2. Correct inability to style clickable `input` types in iOS. 3. Improve usability and consistency of cursor style between image-type `input` and others. */
-button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3 */ }
-
-/** Re-set default cursor for disabled elements. */
-button[disabled], html input[disabled] { cursor: default; }
-
-/** Remove inner padding and border in Firefox 4+. */
-button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
-
-/** Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet. */
-input { line-height: normal; }
-
-/** It's recommended that you don't attempt to style these elements. Firefox's implementation doesn't respect box-sizing, padding, or width.  1. Address box sizing set to `content-box` in IE 8/9/10. 2. Remove excess padding in IE 8/9/10. */
-input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
-
-/** Fix the cursor style for Chrome's increment/decrement buttons. For certain `font-size` values of the `input`, it causes the cursor style of the decrement button to change from `default` to `text`. */
-input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
-
-/** 1. Address `appearance` set to `searchfield` in Safari and Chrome. 2. Address `box-sizing` set to `border-box` in Safari and Chrome (include `-moz` to future-proof). */
-input[type="search"] { -webkit-appearance: textfield; /* 1 */ -moz-box-sizing: content-box; -webkit-box-sizing: content-box; /* 2 */ box-sizing: content-box; }
-
-/** Remove inner padding and search cancel button in Safari and Chrome on OS X. Safari (but not Chrome) clips the cancel button when the search input has padding (and `textfield` appearance). */
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
-
-/** Define consistent border, margin, and padding. */
-fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
-
-/** 1. Correct `color` not being inherited in IE 8/9/10/11. 2. Remove padding so people aren't caught out if they zero out fieldsets. */
-legend { border: 0; /* 1 */ padding: 0; /* 2 */ }
-
-/** Remove default vertical scrollbar in IE 8/9/10/11. */
-textarea { overflow: auto; }
-
-/** Don't inherit the `font-weight` (applied by a rule above). NOTE: the default cannot safely be changed in Chrome and Safari on OS X. */
-optgroup { font-weight: bold; }
-
-/* Tables ========================================================================== */
-/** Remove most spacing between table cells. */
-table { border-collapse: collapse; border-spacing: 0; }
-
-td, th { padding: 0; }
-
-* html { font-size: 100%; }
-
-html { font-size: 16px; line-height: 24px; }
-
-body { font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif; font-weight: normal; }
-
-body { -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-
-h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; border: 0; }
-
-a { color: blue; text-decoration: none; }
-a:hover { text-decoration: underline; }
-
-p { margin-bottom: 24px; }
-
-/* debug background grid */
-body { background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 154, 142, 0.3)), color-stop(5%, rgba(0, 154, 142, 0))); background-image: -webkit-linear-gradient(bottom, rgba(0, 154, 142, 0.3) 5%, rgba(0, 154, 142, 0) 5%); background-image: -moz-linear-gradient(bottom, rgba(0, 154, 142, 0.3) 5%, rgba(0, 154, 142, 0) 5%); background-image: -o-linear-gradient(bottom, rgba(0, 154, 142, 0.3) 5%, rgba(0, 154, 142, 0) 5%); background-image: linear-gradient(bottom, rgba(0, 154, 142, 0.3) 5%, rgba(0, 154, 142, 0) 5%); -webkit-background-size: 100% 24px; -moz-background-size: 100% 24px; -o-background-size: 100% 24px; background-size: 100% 24px; background-position: left top; }
-
-.page { background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(241, 90, 20, 0.2)), color-stop(14.2857142857%, rgba(241, 90, 20, 0.2)), color-stop(14.2857142857%, rgba(0, 0, 0, 0)), color-stop(17.1428571429%, rgba(0, 0, 0, 0)), color-stop(17.1428571429%, rgba(241, 90, 20, 0.2)), color-stop(31.4285714286%, rgba(241, 90, 20, 0.2)), color-stop(31.4285714286%, rgba(0, 0, 0, 0)), color-stop(34.2857142857%, rgba(0, 0, 0, 0)), color-stop(34.2857142857%, rgba(241, 90, 20, 0.2)), color-stop(48.5714285714%, rgba(241, 90, 20, 0.2)), color-stop(48.5714285714%, rgba(0, 0, 0, 0)), color-stop(51.4285714286%, rgba(0, 0, 0, 0)), color-stop(51.4285714286%, rgba(241, 90, 20, 0.2)), color-stop(65.7142857143%, rgba(241, 90, 20, 0.2)), color-stop(65.7142857143%, rgba(0, 0, 0, 0)), color-stop(68.5714285714%, rgba(0, 0, 0, 0)), color-stop(68.5714285714%, rgba(241, 90, 20, 0.2)), color-stop(82.8571428571%, rgba(241, 90, 20, 0.2)), color-stop(82.8571428571%, rgba(0, 0, 0, 0)), color-stop(85.7142857143%, rgba(0, 0, 0, 0)), color-stop(85.7142857143%, rgba(241, 90, 20, 0.2)), color-stop(100%, rgba(241, 90, 20, 0.2)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0))); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 14.2857142857%, rgba(0, 0, 0, 0) 14.2857142857%, rgba(0, 0, 0, 0) 17.1428571429%, rgba(241, 90, 20, 0.2) 17.1428571429%, rgba(241, 90, 20, 0.2) 31.4285714286%, rgba(0, 0, 0, 0) 31.4285714286%, rgba(0, 0, 0, 0) 34.2857142857%, rgba(241, 90, 20, 0.2) 34.2857142857%, rgba(241, 90, 20, 0.2) 48.5714285714%, rgba(0, 0, 0, 0) 48.5714285714%, rgba(0, 0, 0, 0) 51.4285714286%, rgba(241, 90, 20, 0.2) 51.4285714286%, rgba(241, 90, 20, 0.2) 65.7142857143%, rgba(0, 0, 0, 0) 65.7142857143%, rgba(0, 0, 0, 0) 68.5714285714%, rgba(241, 90, 20, 0.2) 68.5714285714%, rgba(241, 90, 20, 0.2) 82.8571428571%, rgba(0, 0, 0, 0) 82.8571428571%, rgba(0, 0, 0, 0) 85.7142857143%, rgba(241, 90, 20, 0.2) 85.7142857143%, rgba(241, 90, 20, 0.2) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 14.2857142857%, rgba(0, 0, 0, 0) 14.2857142857%, rgba(0, 0, 0, 0) 17.1428571429%, rgba(241, 90, 20, 0.2) 17.1428571429%, rgba(241, 90, 20, 0.2) 31.4285714286%, rgba(0, 0, 0, 0) 31.4285714286%, rgba(0, 0, 0, 0) 34.2857142857%, rgba(241, 90, 20, 0.2) 34.2857142857%, rgba(241, 90, 20, 0.2) 48.5714285714%, rgba(0, 0, 0, 0) 48.5714285714%, rgba(0, 0, 0, 0) 51.4285714286%, rgba(241, 90, 20, 0.2) 51.4285714286%, rgba(241, 90, 20, 0.2) 65.7142857143%, rgba(0, 0, 0, 0) 65.7142857143%, rgba(0, 0, 0, 0) 68.5714285714%, rgba(241, 90, 20, 0.2) 68.5714285714%, rgba(241, 90, 20, 0.2) 82.8571428571%, rgba(0, 0, 0, 0) 82.8571428571%, rgba(0, 0, 0, 0) 85.7142857143%, rgba(241, 90, 20, 0.2) 85.7142857143%, rgba(241, 90, 20, 0.2) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 14.2857142857%, rgba(0, 0, 0, 0) 14.2857142857%, rgba(0, 0, 0, 0) 17.1428571429%, rgba(241, 90, 20, 0.2) 17.1428571429%, rgba(241, 90, 20, 0.2) 31.4285714286%, rgba(0, 0, 0, 0) 31.4285714286%, rgba(0, 0, 0, 0) 34.2857142857%, rgba(241, 90, 20, 0.2) 34.2857142857%, rgba(241, 90, 20, 0.2) 48.5714285714%, rgba(0, 0, 0, 0) 48.5714285714%, rgba(0, 0, 0, 0) 51.4285714286%, rgba(241, 90, 20, 0.2) 51.4285714286%, rgba(241, 90, 20, 0.2) 65.7142857143%, rgba(0, 0, 0, 0) 65.7142857143%, rgba(0, 0, 0, 0) 68.5714285714%, rgba(241, 90, 20, 0.2) 68.5714285714%, rgba(241, 90, 20, 0.2) 82.8571428571%, rgba(0, 0, 0, 0) 82.8571428571%, rgba(0, 0, 0, 0) 85.7142857143%, rgba(241, 90, 20, 0.2) 85.7142857143%, rgba(241, 90, 20, 0.2) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 14.2857142857%, rgba(0, 0, 0, 0) 14.2857142857%, rgba(0, 0, 0, 0) 17.1428571429%, rgba(241, 90, 20, 0.2) 17.1428571429%, rgba(241, 90, 20, 0.2) 31.4285714286%, rgba(0, 0, 0, 0) 31.4285714286%, rgba(0, 0, 0, 0) 34.2857142857%, rgba(241, 90, 20, 0.2) 34.2857142857%, rgba(241, 90, 20, 0.2) 48.5714285714%, rgba(0, 0, 0, 0) 48.5714285714%, rgba(0, 0, 0, 0) 51.4285714286%, rgba(241, 90, 20, 0.2) 51.4285714286%, rgba(241, 90, 20, 0.2) 65.7142857143%, rgba(0, 0, 0, 0) 65.7142857143%, rgba(0, 0, 0, 0) 68.5714285714%, rgba(241, 90, 20, 0.2) 68.5714285714%, rgba(241, 90, 20, 0.2) 82.8571428571%, rgba(0, 0, 0, 0) 82.8571428571%, rgba(0, 0, 0, 0) 85.7142857143%, rgba(241, 90, 20, 0.2) 85.7142857143%, rgba(241, 90, 20, 0.2) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-position: left top; -webkit-background-origin: content; -moz-background-origin: content; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box; -webkit-background-clip: content-box; -moz-background-clip: content-box; background-clip: content-box; }
-@media (min-width: 47em) { .page { background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(241, 90, 20, 0.2)), color-stop(10.6382978723%, rgba(241, 90, 20, 0.2)), color-stop(10.6382978723%, rgba(0, 0, 0, 0)), color-stop(12.7659574468%, rgba(0, 0, 0, 0)), color-stop(12.7659574468%, rgba(241, 90, 20, 0.2)), color-stop(23.4042553191%, rgba(241, 90, 20, 0.2)), color-stop(23.4042553191%, rgba(0, 0, 0, 0)), color-stop(25.5319148936%, rgba(0, 0, 0, 0)), color-stop(25.5319148936%, rgba(241, 90, 20, 0.2)), color-stop(36.170212766%, rgba(241, 90, 20, 0.2)), color-stop(36.170212766%, rgba(0, 0, 0, 0)), color-stop(38.2978723404%, rgba(0, 0, 0, 0)), color-stop(38.2978723404%, rgba(241, 90, 20, 0.2)), color-stop(48.9361702128%, rgba(241, 90, 20, 0.2)), color-stop(48.9361702128%, rgba(0, 0, 0, 0)), color-stop(51.0638297872%, rgba(0, 0, 0, 0)), color-stop(51.0638297872%, rgba(241, 90, 20, 0.2)), color-stop(61.7021276596%, rgba(241, 90, 20, 0.2)), color-stop(61.7021276596%, rgba(0, 0, 0, 0)), color-stop(63.829787234%, rgba(0, 0, 0, 0)), color-stop(63.829787234%, rgba(241, 90, 20, 0.2)), color-stop(74.4680851064%, rgba(241, 90, 20, 0.2)), color-stop(74.4680851064%, rgba(0, 0, 0, 0)), color-stop(76.5957446809%, rgba(0, 0, 0, 0)), color-stop(76.5957446809%, rgba(241, 90, 20, 0.2)), color-stop(87.2340425532%, rgba(241, 90, 20, 0.2)), color-stop(87.2340425532%, rgba(0, 0, 0, 0)), color-stop(89.3617021277%, rgba(0, 0, 0, 0)), color-stop(89.3617021277%, rgba(241, 90, 20, 0.2)), color-stop(100%, rgba(241, 90, 20, 0.2)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0))); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 10.6382978723%, rgba(0, 0, 0, 0) 10.6382978723%, rgba(0, 0, 0, 0) 12.7659574468%, rgba(241, 90, 20, 0.2) 12.7659574468%, rgba(241, 90, 20, 0.2) 23.4042553191%, rgba(0, 0, 0, 0) 23.4042553191%, rgba(0, 0, 0, 0) 25.5319148936%, rgba(241, 90, 20, 0.2) 25.5319148936%, rgba(241, 90, 20, 0.2) 36.170212766%, rgba(0, 0, 0, 0) 36.170212766%, rgba(0, 0, 0, 0) 38.2978723404%, rgba(241, 90, 20, 0.2) 38.2978723404%, rgba(241, 90, 20, 0.2) 48.9361702128%, rgba(0, 0, 0, 0) 48.9361702128%, rgba(0, 0, 0, 0) 51.0638297872%, rgba(241, 90, 20, 0.2) 51.0638297872%, rgba(241, 90, 20, 0.2) 61.7021276596%, rgba(0, 0, 0, 0) 61.7021276596%, rgba(0, 0, 0, 0) 63.829787234%, rgba(241, 90, 20, 0.2) 63.829787234%, rgba(241, 90, 20, 0.2) 74.4680851064%, rgba(0, 0, 0, 0) 74.4680851064%, rgba(0, 0, 0, 0) 76.5957446809%, rgba(241, 90, 20, 0.2) 76.5957446809%, rgba(241, 90, 20, 0.2) 87.2340425532%, rgba(0, 0, 0, 0) 87.2340425532%, rgba(0, 0, 0, 0) 89.3617021277%, rgba(241, 90, 20, 0.2) 89.3617021277%, rgba(241, 90, 20, 0.2) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 10.6382978723%, rgba(0, 0, 0, 0) 10.6382978723%, rgba(0, 0, 0, 0) 12.7659574468%, rgba(241, 90, 20, 0.2) 12.7659574468%, rgba(241, 90, 20, 0.2) 23.4042553191%, rgba(0, 0, 0, 0) 23.4042553191%, rgba(0, 0, 0, 0) 25.5319148936%, rgba(241, 90, 20, 0.2) 25.5319148936%, rgba(241, 90, 20, 0.2) 36.170212766%, rgba(0, 0, 0, 0) 36.170212766%, rgba(0, 0, 0, 0) 38.2978723404%, rgba(241, 90, 20, 0.2) 38.2978723404%, rgba(241, 90, 20, 0.2) 48.9361702128%, rgba(0, 0, 0, 0) 48.9361702128%, rgba(0, 0, 0, 0) 51.0638297872%, rgba(241, 90, 20, 0.2) 51.0638297872%, rgba(241, 90, 20, 0.2) 61.7021276596%, rgba(0, 0, 0, 0) 61.7021276596%, rgba(0, 0, 0, 0) 63.829787234%, rgba(241, 90, 20, 0.2) 63.829787234%, rgba(241, 90, 20, 0.2) 74.4680851064%, rgba(0, 0, 0, 0) 74.4680851064%, rgba(0, 0, 0, 0) 76.5957446809%, rgba(241, 90, 20, 0.2) 76.5957446809%, rgba(241, 90, 20, 0.2) 87.2340425532%, rgba(0, 0, 0, 0) 87.2340425532%, rgba(0, 0, 0, 0) 89.3617021277%, rgba(241, 90, 20, 0.2) 89.3617021277%, rgba(241, 90, 20, 0.2) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 10.6382978723%, rgba(0, 0, 0, 0) 10.6382978723%, rgba(0, 0, 0, 0) 12.7659574468%, rgba(241, 90, 20, 0.2) 12.7659574468%, rgba(241, 90, 20, 0.2) 23.4042553191%, rgba(0, 0, 0, 0) 23.4042553191%, rgba(0, 0, 0, 0) 25.5319148936%, rgba(241, 90, 20, 0.2) 25.5319148936%, rgba(241, 90, 20, 0.2) 36.170212766%, rgba(0, 0, 0, 0) 36.170212766%, rgba(0, 0, 0, 0) 38.2978723404%, rgba(241, 90, 20, 0.2) 38.2978723404%, rgba(241, 90, 20, 0.2) 48.9361702128%, rgba(0, 0, 0, 0) 48.9361702128%, rgba(0, 0, 0, 0) 51.0638297872%, rgba(241, 90, 20, 0.2) 51.0638297872%, rgba(241, 90, 20, 0.2) 61.7021276596%, rgba(0, 0, 0, 0) 61.7021276596%, rgba(0, 0, 0, 0) 63.829787234%, rgba(241, 90, 20, 0.2) 63.829787234%, rgba(241, 90, 20, 0.2) 74.4680851064%, rgba(0, 0, 0, 0) 74.4680851064%, rgba(0, 0, 0, 0) 76.5957446809%, rgba(241, 90, 20, 0.2) 76.5957446809%, rgba(241, 90, 20, 0.2) 87.2340425532%, rgba(0, 0, 0, 0) 87.2340425532%, rgba(0, 0, 0, 0) 89.3617021277%, rgba(241, 90, 20, 0.2) 89.3617021277%, rgba(241, 90, 20, 0.2) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 10.6382978723%, rgba(0, 0, 0, 0) 10.6382978723%, rgba(0, 0, 0, 0) 12.7659574468%, rgba(241, 90, 20, 0.2) 12.7659574468%, rgba(241, 90, 20, 0.2) 23.4042553191%, rgba(0, 0, 0, 0) 23.4042553191%, rgba(0, 0, 0, 0) 25.5319148936%, rgba(241, 90, 20, 0.2) 25.5319148936%, rgba(241, 90, 20, 0.2) 36.170212766%, rgba(0, 0, 0, 0) 36.170212766%, rgba(0, 0, 0, 0) 38.2978723404%, rgba(241, 90, 20, 0.2) 38.2978723404%, rgba(241, 90, 20, 0.2) 48.9361702128%, rgba(0, 0, 0, 0) 48.9361702128%, rgba(0, 0, 0, 0) 51.0638297872%, rgba(241, 90, 20, 0.2) 51.0638297872%, rgba(241, 90, 20, 0.2) 61.7021276596%, rgba(0, 0, 0, 0) 61.7021276596%, rgba(0, 0, 0, 0) 63.829787234%, rgba(241, 90, 20, 0.2) 63.829787234%, rgba(241, 90, 20, 0.2) 74.4680851064%, rgba(0, 0, 0, 0) 74.4680851064%, rgba(0, 0, 0, 0) 76.5957446809%, rgba(241, 90, 20, 0.2) 76.5957446809%, rgba(241, 90, 20, 0.2) 87.2340425532%, rgba(0, 0, 0, 0) 87.2340425532%, rgba(0, 0, 0, 0) 89.3617021277%, rgba(241, 90, 20, 0.2) 89.3617021277%, rgba(241, 90, 20, 0.2) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-position: left top; -webkit-background-origin: content; -moz-background-origin: content; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box; -webkit-background-clip: content-box; -moz-background-clip: content-box; background-clip: content-box; } }
-@media (min-width: 71em) { .page { background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(241, 90, 20, 0.2)), color-stop(7.0422535211%, rgba(241, 90, 20, 0.2)), color-stop(7.0422535211%, rgba(0, 0, 0, 0)), color-stop(8.4507042254%, rgba(0, 0, 0, 0)), color-stop(8.4507042254%, rgba(241, 90, 20, 0.2)), color-stop(15.4929577465%, rgba(241, 90, 20, 0.2)), color-stop(15.4929577465%, rgba(0, 0, 0, 0)), color-stop(16.9014084507%, rgba(0, 0, 0, 0)), color-stop(16.9014084507%, rgba(241, 90, 20, 0.2)), color-stop(23.9436619718%, rgba(241, 90, 20, 0.2)), color-stop(23.9436619718%, rgba(0, 0, 0, 0)), color-stop(25.3521126761%, rgba(0, 0, 0, 0)), color-stop(25.3521126761%, rgba(241, 90, 20, 0.2)), color-stop(32.3943661972%, rgba(241, 90, 20, 0.2)), color-stop(32.3943661972%, rgba(0, 0, 0, 0)), color-stop(33.8028169014%, rgba(0, 0, 0, 0)), color-stop(33.8028169014%, rgba(241, 90, 20, 0.2)), color-stop(40.8450704225%, rgba(241, 90, 20, 0.2)), color-stop(40.8450704225%, rgba(0, 0, 0, 0)), color-stop(42.2535211268%, rgba(0, 0, 0, 0)), color-stop(42.2535211268%, rgba(241, 90, 20, 0.2)), color-stop(49.2957746479%, rgba(241, 90, 20, 0.2)), color-stop(49.2957746479%, rgba(0, 0, 0, 0)), color-stop(50.7042253521%, rgba(0, 0, 0, 0)), color-stop(50.7042253521%, rgba(241, 90, 20, 0.2)), color-stop(57.7464788732%, rgba(241, 90, 20, 0.2)), color-stop(57.7464788732%, rgba(0, 0, 0, 0)), color-stop(59.1549295775%, rgba(0, 0, 0, 0)), color-stop(59.1549295775%, rgba(241, 90, 20, 0.2)), color-stop(66.1971830986%, rgba(241, 90, 20, 0.2)), color-stop(66.1971830986%, rgba(0, 0, 0, 0)), color-stop(67.6056338028%, rgba(0, 0, 0, 0)), color-stop(67.6056338028%, rgba(241, 90, 20, 0.2)), color-stop(74.6478873239%, rgba(241, 90, 20, 0.2)), color-stop(74.6478873239%, rgba(0, 0, 0, 0)), color-stop(76.0563380282%, rgba(0, 0, 0, 0)), color-stop(76.0563380282%, rgba(241, 90, 20, 0.2)), color-stop(83.0985915493%, rgba(241, 90, 20, 0.2)), color-stop(83.0985915493%, rgba(0, 0, 0, 0)), color-stop(84.5070422535%, rgba(0, 0, 0, 0)), color-stop(84.5070422535%, rgba(241, 90, 20, 0.2)), color-stop(91.5492957746%, rgba(241, 90, 20, 0.2)), color-stop(91.5492957746%, rgba(0, 0, 0, 0)), color-stop(92.9577464789%, rgba(0, 0, 0, 0)), color-stop(92.9577464789%, rgba(241, 90, 20, 0.2)), color-stop(100.0%, rgba(241, 90, 20, 0.2)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0))); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 7.0422535211%, rgba(0, 0, 0, 0) 7.0422535211%, rgba(0, 0, 0, 0) 8.4507042254%, rgba(241, 90, 20, 0.2) 8.4507042254%, rgba(241, 90, 20, 0.2) 15.4929577465%, rgba(0, 0, 0, 0) 15.4929577465%, rgba(0, 0, 0, 0) 16.9014084507%, rgba(241, 90, 20, 0.2) 16.9014084507%, rgba(241, 90, 20, 0.2) 23.9436619718%, rgba(0, 0, 0, 0) 23.9436619718%, rgba(0, 0, 0, 0) 25.3521126761%, rgba(241, 90, 20, 0.2) 25.3521126761%, rgba(241, 90, 20, 0.2) 32.3943661972%, rgba(0, 0, 0, 0) 32.3943661972%, rgba(0, 0, 0, 0) 33.8028169014%, rgba(241, 90, 20, 0.2) 33.8028169014%, rgba(241, 90, 20, 0.2) 40.8450704225%, rgba(0, 0, 0, 0) 40.8450704225%, rgba(0, 0, 0, 0) 42.2535211268%, rgba(241, 90, 20, 0.2) 42.2535211268%, rgba(241, 90, 20, 0.2) 49.2957746479%, rgba(0, 0, 0, 0) 49.2957746479%, rgba(0, 0, 0, 0) 50.7042253521%, rgba(241, 90, 20, 0.2) 50.7042253521%, rgba(241, 90, 20, 0.2) 57.7464788732%, rgba(0, 0, 0, 0) 57.7464788732%, rgba(0, 0, 0, 0) 59.1549295775%, rgba(241, 90, 20, 0.2) 59.1549295775%, rgba(241, 90, 20, 0.2) 66.1971830986%, rgba(0, 0, 0, 0) 66.1971830986%, rgba(0, 0, 0, 0) 67.6056338028%, rgba(241, 90, 20, 0.2) 67.6056338028%, rgba(241, 90, 20, 0.2) 74.6478873239%, rgba(0, 0, 0, 0) 74.6478873239%, rgba(0, 0, 0, 0) 76.0563380282%, rgba(241, 90, 20, 0.2) 76.0563380282%, rgba(241, 90, 20, 0.2) 83.0985915493%, rgba(0, 0, 0, 0) 83.0985915493%, rgba(0, 0, 0, 0) 84.5070422535%, rgba(241, 90, 20, 0.2) 84.5070422535%, rgba(241, 90, 20, 0.2) 91.5492957746%, rgba(0, 0, 0, 0) 91.5492957746%, rgba(0, 0, 0, 0) 92.9577464789%, rgba(241, 90, 20, 0.2) 92.9577464789%, rgba(241, 90, 20, 0.2) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 7.0422535211%, rgba(0, 0, 0, 0) 7.0422535211%, rgba(0, 0, 0, 0) 8.4507042254%, rgba(241, 90, 20, 0.2) 8.4507042254%, rgba(241, 90, 20, 0.2) 15.4929577465%, rgba(0, 0, 0, 0) 15.4929577465%, rgba(0, 0, 0, 0) 16.9014084507%, rgba(241, 90, 20, 0.2) 16.9014084507%, rgba(241, 90, 20, 0.2) 23.9436619718%, rgba(0, 0, 0, 0) 23.9436619718%, rgba(0, 0, 0, 0) 25.3521126761%, rgba(241, 90, 20, 0.2) 25.3521126761%, rgba(241, 90, 20, 0.2) 32.3943661972%, rgba(0, 0, 0, 0) 32.3943661972%, rgba(0, 0, 0, 0) 33.8028169014%, rgba(241, 90, 20, 0.2) 33.8028169014%, rgba(241, 90, 20, 0.2) 40.8450704225%, rgba(0, 0, 0, 0) 40.8450704225%, rgba(0, 0, 0, 0) 42.2535211268%, rgba(241, 90, 20, 0.2) 42.2535211268%, rgba(241, 90, 20, 0.2) 49.2957746479%, rgba(0, 0, 0, 0) 49.2957746479%, rgba(0, 0, 0, 0) 50.7042253521%, rgba(241, 90, 20, 0.2) 50.7042253521%, rgba(241, 90, 20, 0.2) 57.7464788732%, rgba(0, 0, 0, 0) 57.7464788732%, rgba(0, 0, 0, 0) 59.1549295775%, rgba(241, 90, 20, 0.2) 59.1549295775%, rgba(241, 90, 20, 0.2) 66.1971830986%, rgba(0, 0, 0, 0) 66.1971830986%, rgba(0, 0, 0, 0) 67.6056338028%, rgba(241, 90, 20, 0.2) 67.6056338028%, rgba(241, 90, 20, 0.2) 74.6478873239%, rgba(0, 0, 0, 0) 74.6478873239%, rgba(0, 0, 0, 0) 76.0563380282%, rgba(241, 90, 20, 0.2) 76.0563380282%, rgba(241, 90, 20, 0.2) 83.0985915493%, rgba(0, 0, 0, 0) 83.0985915493%, rgba(0, 0, 0, 0) 84.5070422535%, rgba(241, 90, 20, 0.2) 84.5070422535%, rgba(241, 90, 20, 0.2) 91.5492957746%, rgba(0, 0, 0, 0) 91.5492957746%, rgba(0, 0, 0, 0) 92.9577464789%, rgba(241, 90, 20, 0.2) 92.9577464789%, rgba(241, 90, 20, 0.2) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 7.0422535211%, rgba(0, 0, 0, 0) 7.0422535211%, rgba(0, 0, 0, 0) 8.4507042254%, rgba(241, 90, 20, 0.2) 8.4507042254%, rgba(241, 90, 20, 0.2) 15.4929577465%, rgba(0, 0, 0, 0) 15.4929577465%, rgba(0, 0, 0, 0) 16.9014084507%, rgba(241, 90, 20, 0.2) 16.9014084507%, rgba(241, 90, 20, 0.2) 23.9436619718%, rgba(0, 0, 0, 0) 23.9436619718%, rgba(0, 0, 0, 0) 25.3521126761%, rgba(241, 90, 20, 0.2) 25.3521126761%, rgba(241, 90, 20, 0.2) 32.3943661972%, rgba(0, 0, 0, 0) 32.3943661972%, rgba(0, 0, 0, 0) 33.8028169014%, rgba(241, 90, 20, 0.2) 33.8028169014%, rgba(241, 90, 20, 0.2) 40.8450704225%, rgba(0, 0, 0, 0) 40.8450704225%, rgba(0, 0, 0, 0) 42.2535211268%, rgba(241, 90, 20, 0.2) 42.2535211268%, rgba(241, 90, 20, 0.2) 49.2957746479%, rgba(0, 0, 0, 0) 49.2957746479%, rgba(0, 0, 0, 0) 50.7042253521%, rgba(241, 90, 20, 0.2) 50.7042253521%, rgba(241, 90, 20, 0.2) 57.7464788732%, rgba(0, 0, 0, 0) 57.7464788732%, rgba(0, 0, 0, 0) 59.1549295775%, rgba(241, 90, 20, 0.2) 59.1549295775%, rgba(241, 90, 20, 0.2) 66.1971830986%, rgba(0, 0, 0, 0) 66.1971830986%, rgba(0, 0, 0, 0) 67.6056338028%, rgba(241, 90, 20, 0.2) 67.6056338028%, rgba(241, 90, 20, 0.2) 74.6478873239%, rgba(0, 0, 0, 0) 74.6478873239%, rgba(0, 0, 0, 0) 76.0563380282%, rgba(241, 90, 20, 0.2) 76.0563380282%, rgba(241, 90, 20, 0.2) 83.0985915493%, rgba(0, 0, 0, 0) 83.0985915493%, rgba(0, 0, 0, 0) 84.5070422535%, rgba(241, 90, 20, 0.2) 84.5070422535%, rgba(241, 90, 20, 0.2) 91.5492957746%, rgba(0, 0, 0, 0) 91.5492957746%, rgba(0, 0, 0, 0) 92.9577464789%, rgba(241, 90, 20, 0.2) 92.9577464789%, rgba(241, 90, 20, 0.2) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(241, 90, 20, 0.2) 0%, rgba(241, 90, 20, 0.2) 7.0422535211%, rgba(0, 0, 0, 0) 7.0422535211%, rgba(0, 0, 0, 0) 8.4507042254%, rgba(241, 90, 20, 0.2) 8.4507042254%, rgba(241, 90, 20, 0.2) 15.4929577465%, rgba(0, 0, 0, 0) 15.4929577465%, rgba(0, 0, 0, 0) 16.9014084507%, rgba(241, 90, 20, 0.2) 16.9014084507%, rgba(241, 90, 20, 0.2) 23.9436619718%, rgba(0, 0, 0, 0) 23.9436619718%, rgba(0, 0, 0, 0) 25.3521126761%, rgba(241, 90, 20, 0.2) 25.3521126761%, rgba(241, 90, 20, 0.2) 32.3943661972%, rgba(0, 0, 0, 0) 32.3943661972%, rgba(0, 0, 0, 0) 33.8028169014%, rgba(241, 90, 20, 0.2) 33.8028169014%, rgba(241, 90, 20, 0.2) 40.8450704225%, rgba(0, 0, 0, 0) 40.8450704225%, rgba(0, 0, 0, 0) 42.2535211268%, rgba(241, 90, 20, 0.2) 42.2535211268%, rgba(241, 90, 20, 0.2) 49.2957746479%, rgba(0, 0, 0, 0) 49.2957746479%, rgba(0, 0, 0, 0) 50.7042253521%, rgba(241, 90, 20, 0.2) 50.7042253521%, rgba(241, 90, 20, 0.2) 57.7464788732%, rgba(0, 0, 0, 0) 57.7464788732%, rgba(0, 0, 0, 0) 59.1549295775%, rgba(241, 90, 20, 0.2) 59.1549295775%, rgba(241, 90, 20, 0.2) 66.1971830986%, rgba(0, 0, 0, 0) 66.1971830986%, rgba(0, 0, 0, 0) 67.6056338028%, rgba(241, 90, 20, 0.2) 67.6056338028%, rgba(241, 90, 20, 0.2) 74.6478873239%, rgba(0, 0, 0, 0) 74.6478873239%, rgba(0, 0, 0, 0) 76.0563380282%, rgba(241, 90, 20, 0.2) 76.0563380282%, rgba(241, 90, 20, 0.2) 83.0985915493%, rgba(0, 0, 0, 0) 83.0985915493%, rgba(0, 0, 0, 0) 84.5070422535%, rgba(241, 90, 20, 0.2) 84.5070422535%, rgba(241, 90, 20, 0.2) 91.5492957746%, rgba(0, 0, 0, 0) 91.5492957746%, rgba(0, 0, 0, 0) 92.9577464789%, rgba(241, 90, 20, 0.2) 92.9577464789%, rgba(241, 90, 20, 0.2) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-position: left top; -webkit-background-origin: content; -moz-background-origin: content; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box; -webkit-background-clip: content-box; -moz-background-clip: content-box; background-clip: content-box; } }
-
-.page { max-width: 35em; padding-left: 1em; padding-right: 1em; margin-left: auto; margin-right: auto; }
-.page:after { content: ""; display: table; clear: both; }
-@media (min-width: 47em) { .page { max-width: 47em; } }
-@media (min-width: 71em) { .page { max-width: 71em; } }
+Backtrace:
+/Users/shengli/Dropbox/Projects/base-project/sass/_layout.scss:2
+/Users/shengli/Dropbox/Projects/base-project/sass/all.scss:19
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/import_node.rb:67:in `import'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/import_node.rb:65:in `import'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/import_node.rb:36:in `css_import?'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+org/jruby/RubyArray.java:2339:in `collect'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2339:in `collect'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `visit_children'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/compass_patch.rb:168:in `compile'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/compass_patch.rb:167:in `compile'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/compass_patch.rb:166:in `compile'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1620:in `each'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/compiler.rb:25:in `compile'
+org/jruby/RubyKernel.java:2105:in `send'
+(__FORWARDABLE__):3:in `compile'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:108:in `sass_removed'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:92:in `sass_callback'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/watch.rb:17:in `run_callback'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/app_watcher.rb:34:in `listen_callback'
+org/jruby/RubyArray.java:1620:in `each'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/app_watcher.rb:29:in `listen_callback'
+org/jruby/RubyArray.java:1620:in `each'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/app_watcher.rb:28:in `listen_callback'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:212:in `on_change'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:221:in `initialize_adapter'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `start'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:224:in `call'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: layout-debug.\A               Load paths:\A                 /Users/shengli/Dropbox/Projects/base-project/sass\A                 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets\A                 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets\A                 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets\A                 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets\A                 /Users/shengli/.compass/extensions/bootstrap-sass-3.1.1/vendor/assets/stylesheets\A                 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass\A                 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss\A                 Compass::SpriteImporter\A                 /Users/shengli/.compass/extensions/bootstrap-sass-3.1.1/vendor/assets/stylesheets\A                 /Users/shengli/.compass/extensions/bootstrap-sass-3.1.1/vendor/assets/stylesheets\A         on line 2 of /Users/shengli/Dropbox/Projects/base-project/sass/_layout.scss\A         from line 19 of /Users/shengli/Dropbox/Projects/base-project/sass/all.scss\A \A 1: /Users/shengli/Dropbox/Projects/base-project/sass/all.scss"; }
