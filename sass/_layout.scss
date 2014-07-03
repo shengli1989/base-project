@@ -1,17 +1,23 @@
+$page-container: ".container";
+
+
 // basic for susy
-$total-columns  : 6;
-$column-width   : 5em;
-$gutter-width   : 1em;
+$total-columns  : 4;
+$column-width   : 72px;
+$gutter-width   : 24px;
 $grid-padding   : $gutter-width;
 
 // add media
 $phone          : $total-columns;
-$pad            : 8;
+$pad            :  8;
 $desktop        : 12;
 
 // debug
 @import "layout-debug";
 
+
 #{$page-container} {
   @include container($phone, $pad, $desktop);
 }
+
+
