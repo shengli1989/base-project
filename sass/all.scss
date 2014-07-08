@@ -9,7 +9,6 @@ $grid-background-baseline-height: $base-line-height;
 
 // import all things
 @import "compass";
-@import "susy";
 
 @import "normalize";
 @include establish-baseline;
