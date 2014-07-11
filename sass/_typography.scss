@@ -23,3 +23,7 @@ a {
 p {
   @include trailer(1);
 }
+
+img, embed {
+  max-width: 100%;
+}

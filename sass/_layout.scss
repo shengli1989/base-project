@@ -1,6 +1,3 @@
-$page-container: ".container";
-
-
 // basic for susy
 $total-columns  : 4;
 $column-width   : 72px;
@@ -13,11 +10,38 @@ $pad            :  8;
 $desktop        : 12;
 
 // debug
-@import "layout-debug";
+// body {
+//   @include baseline-grid-background;
+// }
+// .container {
+//   @include susy-grid-background;
 
+//   @include at-breakpoint($pad) {
+//     @include susy-grid-background;
+//   }
 
-#{$page-container} {
-  @include container($phone, $pad, $desktop);
+//   @include at-breakpoint($desktop) {
+//     @include susy-grid-background;
+//   }
+// }
+
+// phone
+.continaer {
+  @include container($phone);
 }
 
 
+// pad
+@include at-breakpoint($pad) {
+  .continaer {
+    @include container($phone);
+  }
+}
+
+
+// desktop
+@include at-breakpoint($desktop) {
+  .continaer {
+    @include container($phone);
+  }
+}
